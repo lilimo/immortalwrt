@@ -10,7 +10,7 @@ KERNELNAME:=vmlinux vmlinuz
 # make Kernel/CopyImage use $LINUX_DIR/vmlinuz
 IMAGES_DIR:=../../..
 
-DEFAULT_PACKAGES += wpad-basic-wolfssl swconfig kmod-ramips_hnat wireless-tools l1profile luci-app-upnp \
+DEFAULT_PACKAGES += swconfig kmod-ramips_hnat luci-app-upnp \
 			iptables-mod-ipopt iptables-mod-conntrack-extra mtkhqos_util luci-app-smartdns luci-theme-argon \
 
 define Target/Description
